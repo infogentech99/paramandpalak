@@ -43,7 +43,7 @@ export default function Events() {
 
 
 <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-11 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/haldi_v.png')] bg-cover bg-center bg-no-repeat"></div>
+  <div className="absolute inset-0 bg-[url('/assets/tilak.webp')] bg-cover bg-center bg-no-repeat"></div>
 
         {/* Content */}
         <div className="relative z-10 flex flex-col md:mt-30 mt-10">
@@ -85,7 +85,7 @@ export default function Events() {
 
 
 <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-15 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/haldi_v.png')] bg-cover bg-center bg-no-repeat"></div>
+  <div className="absolute inset-0 bg-[url('/assets/carnival.webp')] bg-cover bg-center bg-no-repeat"></div>
 
         {/* Content */}
         <div className="relative z-10 flex flex-col md:mt-30 mt-3">
@@ -137,66 +137,9 @@ export default function Events() {
 
 
 
-      {/* <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-10 md:px-17 py-5 md:mt-20 mt-8">
-        <div className="absolute inset-0 bg-[url('/assets/haldi_event.webp')] bg-cover bg-center bg-no-repeat"></div>
-
-        
-        <div className="relative z-10 flex flex-col md:mt-30 mt-12">
-          <h2 className="text-[#BC610A] font-cormorant-garamond text-[25px] md:text-3xl lg:text-[40px] leading-tight font-semibold" >
-            Sunshine & Shor <br/>Carnival
-          </h2>
-          <p className="text-[#BC610A] font-cormorant-garamond text-[16px] md:text-base">
-            (Haldi)
-          </p>
-          <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-3">
-            10:30 am onwards
-          </p>
-
-          <p className="text-[#BC610A] font-cormorant-garamond text-sm md:text-base mt-3">
-            <span className="text-lg md:text-xl font-semibold">
-              Holymont Fort
-            </span>
-          </p>
-
-          <a
-            href="https://maps.app.goo.gl/xzAuofL2wKb5jVaY6"
-            className="text-[#BC610A] underline text-sm font-cormorant-garamond"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Location
-          </a>
-        </div>
-      </div> */}
-
-      {/* <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[400px] md:min-h-[600px] px-7 md:px-13 lg:px-11 py-3 md:mt-20 mt-8">
-        <div className="absolute inset-0 bg-[url('/assets/sangeet_event_n.webp')] bg-cover bg-center bg-no-repeat"></div>
+      
 
      
-        <div className="relative z-10 flex flex-col md:mt-45 lg:mt-35 mt-25">
-          <h2 className="text-[#fff] font-cormorant-garamond text-[25px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
-            Moonlight & Music <br/> Sangeet
-          </h2>
-        
-          <p className="text-[#fff]  font-cormorant-garamond text-[16px] md:text-base mt-2">
-            7:00 pm onwards
-          </p>
-
-          <p className="text-[#fff]  font-cormorant-garamond text-sm md:text-base mt-2">
-            <span className="text-[15px] md:text-base lg:text-xl  font-cormorant-garamond font-semibold">
-              Infinity Lawn
-            </span>
-          </p>
-
-          <a
-            href="https://maps.app.goo.gl/xzAuofL2wKb5jVaY6"
-            className="text-[#fff] underline md:text-sm text-[13px] font-cormorant-garamond"
-            target="_blank"
-          >
-            View Location
-          </a>
-        </div>
-      </div> */}
 
       <div className="flex items-center w-full mt-16 mb-13">
         <div className="flex-1">
@@ -218,7 +161,7 @@ export default function Events() {
 
 
 <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-8 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/reception.webp')] bg-cover bg-center bg-no-repeat"></div>
+  <div className="absolute inset-0 bg-[url('/assets/samela.webp')] bg-cover bg-center bg-no-repeat"></div>
 
      
         <div className="relative z-10 flex flex-col md:mt-30 mt-3">
