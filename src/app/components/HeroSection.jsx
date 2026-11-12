@@ -6,13 +6,24 @@ export default function HeroSection() {
   return (
     <>
       {/* HERO TOP IMAGE */}
-      <div className="relative z-20 w-full">
+      {/* <div className="relative z-20 w-full">
         <img
           src="/assets/hero_top.webp"
           alt="Hero"
           className="block w-full h-auto object-cover"
         />
-      </div>
+      </div> */}
+
+      <div className="relative z-20 w-full">
+  <video
+    src="/assets/hero_top.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="block w-full h-auto object-cover"
+  />
+</div>
 
       {/* STICKY BACKGROUND SECTION */}
       <section className="relative w-full">

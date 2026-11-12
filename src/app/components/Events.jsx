@@ -20,8 +20,8 @@ export default function Events() {
         Sunday, 29th November 2026
       </h2>
 
-  <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-16 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/haldi_v.png')] bg-cover bg-center bg-no-repeat"></div>
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-16 md:px-17 py-5 md:mt-20 mt-8">
+        <div className="absolute inset-0 bg-[url('/assets/haldi_v.png')] bg-cover bg-center bg-no-repeat"></div>
 
         {/* Content */}
         <div className="relative z-10 flex flex-col md:mt-30 mt-10">
@@ -32,38 +32,23 @@ export default function Events() {
           <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-3">
             11:00 am onwards
           </p>
-          
-
-          
         </div>
+      </div>
 
-</div>
-
-
-
-
-<div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-11 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/tilak.webp')] bg-cover bg-center bg-no-repeat"></div>
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-11 md:px-17 py-5 md:mt-20 mt-8">
+        <div className="absolute inset-0 bg-[url('/assets/tilak.webp')] bg-cover bg-center bg-no-repeat"></div>
 
         {/* Content */}
         <div className="relative z-10 flex flex-col md:mt-30 mt-10">
           <h2 className="text-[#BC610A] font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
-            Tilak &<br/> Engagement
+            Tilak &<br /> Engagement
           </h2>
 
           <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-3">
             6:00 pm onwards
           </p>
-          
-
-         
         </div>
-
-</div>
-
-
-      
-    
+      </div>
 
       <div className="flex items-center w-full mt-16 mb-13">
         <div className="flex-1">
@@ -83,9 +68,8 @@ export default function Events() {
         Monday, 30th November 2026
       </h2>
 
-
-<div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-15 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/carnival.webp')] bg-cover bg-center bg-no-repeat"></div>
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-15 md:px-17 py-5 md:mt-20 mt-8">
+        <div className="absolute inset-0 bg-[url('/assets/carnival.webp')] bg-cover bg-center bg-no-repeat"></div>
 
         {/* Content */}
         <div className="relative z-10 flex flex-col md:mt-30 mt-3">
@@ -96,24 +80,20 @@ export default function Events() {
           <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-1">
             11:00 am onwards
           </p>
-          
-<h2 className="text-[#BC610A] font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold mt-3">
+
+          <h2 className="text-[#BC610A] font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold mt-3">
             Sajjangoth
           </h2>
 
           <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-1">
             1:00 pm onwards
           </p>
-         
         </div>
+      </div>
 
-</div>
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-10 md:px-17 py-5 md:mt-20 mt-8">
+        <div className="absolute inset-0 bg-[url('/assets/sangeet_event_n.webp')] bg-cover bg-center bg-no-repeat"></div>
 
-
-<div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-10 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/sangeet_event_n.webp')] bg-cover bg-center bg-no-repeat"></div>
-
-     
         <div className="relative z-10 flex flex-col md:mt-30 mt-13">
           <h2 className="text-white font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
             Mayra
@@ -122,24 +102,16 @@ export default function Events() {
           <p className="text-white font-cormorant-garamond text-base md:text-lg mt-1">
             2:00 pm onwards
           </p>
-          
-<h2 className="text-white font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold mt-3">
+
+          <h2 className="text-white font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold mt-3">
             Sangeet Night
           </h2>
 
           <p className="text-white font-cormorant-garamond text-base md:text-lg mt-1">
-           6:00 pm onwards
+            6:00 pm onwards
           </p>
-         
         </div>
-
-</div>
-
-
-
-      
-
-     
+      </div>
 
       <div className="flex items-center w-full mt-16 mb-13">
         <div className="flex-1">
@@ -159,11 +131,9 @@ export default function Events() {
         Thursday, 1st December 2026
       </h2>
 
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-8 md:px-17 py-5 md:mt-20 mt-8">
+        <div className="absolute inset-0 bg-[url('/assets/samela.webp')] bg-cover bg-center bg-no-repeat"></div>
 
-<div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-8 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/samela.webp')] bg-cover bg-center bg-no-repeat"></div>
-
-     
         <div className="relative z-10 flex flex-col md:mt-30 mt-3">
           <h2 className="text-[#BC610A] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
             Samela & Nikasi
@@ -172,24 +142,20 @@ export default function Events() {
           <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-1">
             10:00 am onwards
           </p>
-          
-<h2 className="text-[#BC610A] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-7 font-semibold mt-3">
-            Varmala & <br/> Reception
+
+          <h2 className="text-[#BC610A] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-7 font-semibold mt-3">
+            Varmala & <br /> Reception
           </h2>
 
           <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-1">
-           12:00 pm onwards
+            12:00 pm onwards
           </p>
-         
         </div>
+      </div>
 
-</div>
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-18 md:px-17 py-5 md:mt-20 mt-8">
+        <div className="absolute inset-0 bg-[url('/assets/reception.webp')] bg-cover bg-center bg-no-repeat"></div>
 
-
-<div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-18 md:px-17 py-5 md:mt-20 mt-8">
-  <div className="absolute inset-0 bg-[url('/assets/reception.webp')] bg-cover bg-center bg-no-repeat"></div>
-
-     
         <div className="relative z-10 flex flex-col md:mt-30 mt-3">
           <h2 className="text-[#702D42] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
             Reception
@@ -198,20 +164,16 @@ export default function Events() {
           <p className="text-[#702D42] font-cormorant-garamond text-base md:text-lg mt-1">
             1:00 pm onwards
           </p>
-          
-<h2 className="text-[#702D42] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-7 font-semibold mt-3">
+
+          <h2 className="text-[#702D42] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-7 font-semibold mt-3">
             Phere
           </h2>
 
           <p className="text-[#702D42] font-cormorant-garamond text-base md:text-lg mt-1">
-           4:00 pm onwards
+            4:00 pm onwards
           </p>
-          
         </div>
-
-</div>
-
-
+      </div>
 
       {/* <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[400px] md:min-h-[600px] px-17 py-0 md:px-26 lg:px-25 md:mt-20 mt-8">
         <div className="absolute inset-0 bg-[url('/assets/mayra_event_n.webp')] bg-cover bg-center bg-no-repeat"></div>
