@@ -14,19 +14,19 @@ const geistMono = Geist_Mono({
 
 
 export const metadata= {
-  metadataBase: new URL("https://chirantakandrashmi.vercel.app/"),
+  metadataBase: new URL("https://paramandpalak.vercel.app/"),
 
   openGraph: {
-    title: "Chirantak & Rashmi Garg",
-    description: "Join as they begin their forever. 30 November, 1 & 2 December, 2026",
-    url: "https://chirantakandrashmi.vercel.app/",
+    title: "Param & Palak Garg",
+    description: "Join as they begin their forever. 29, 30 November & 1 December, 2026",
+    url: "https://paramandpalak.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Chirantak Agarwal & Rashmi Garg",
+        alt: "Param & Palak",
       }, 
     ],
     type: "website",
@@ -35,13 +35,13 @@ export const metadata= {
 
   twitter: {
     card: "summary_large_image",
-    title: "Chirantak Agarwal & Rashmi Garg",
-    description: "Join as they begin their forever. 30 November, 1 & 2 December, 2026",
+    title: "Param & Palak",
+    description: "Join as they begin their forever. 29, 30 November & 1 December, 2026",
     images: ["/og.jpg"],
   },
 
  other: {
-    "og:image:secure_url": "https://chirantakandrashmi.vercel.app/og.jpg",
+    "og:image:secure_url": "https://paramandpalak.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 };

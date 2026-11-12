@@ -22,7 +22,7 @@ export default function LadkiDetails() {
 
       <div className="mt-8 text-center">
         <h2 className="text-[#BC610A] font-pinyon-script text-center mt-14 md:text-4xl text-[38px] lg:text-[60px] leading-tight font-bold">
-          Rashmi
+          Palak
         </h2>
 
         <p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl mt-2 text-[16px]">
@@ -34,7 +34,7 @@ export default function LadkiDetails() {
             With
           </span>
           <br />
-          Chirantak
+          Param
         </h2>
 
         <p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl mt-2 text-[16px]">

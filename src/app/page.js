@@ -62,9 +62,11 @@ export default function Home() {
       </button>
 
       <audio ref={audioRef} src="/assets/song.mp3" loop preload="auto" playsInline />
-
+ 
       <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+       
         <IntroVideo />
+        
         <HeroSection />
       </div>
     </>

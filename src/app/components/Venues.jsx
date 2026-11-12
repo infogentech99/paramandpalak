@@ -2,10 +2,10 @@
 
 const venues = [
   {
-    title: "Hotel Holymont Udaipur",
+    title: "Goenka Farm",
     // place: "Hotel Marudhar Palace",
-    image: "/assets/marudhar.webp",
-    link: "https://maps.app.goo.gl/xzAuofL2wKb5jVaY6",
+    // image: "/assets/marudhar.webp",
+    link: "https://maps.app.goo.gl/k4HHPvMQXwFzEyUV9",
   },
 
 
@@ -32,18 +32,18 @@ export default function Venues() {
       </svg>
 
       {/* Cards */}
-      <div className="mt-14 w-full max-w-4xl grid grid-cols-1 md:grid-cols-1 gap-6 md:gap-8">
+      <div className="mt-5 w-full max-w-4xl grid grid-cols-1 md:grid-cols-1 gap-6 md:gap-8">
         {venues.map((v) => (
           <div key={v.title} className="flex flex-col items-center text-center">
-            <div className="w-full aspect-[4/3] overflow-hidden rounded-xl shadow-[0_20px_40px_rgba(0,0,0,0.18)]">
+            {/* <div className="w-full aspect-[4/3] overflow-hidden rounded-xl shadow-[0_20px_40px_rgba(0,0,0,0.18)]">
               <img
                 src={v.image}
                 alt={v.title}
                 className="w-full h-full object-cover"
               />
-            </div>
+            </div> */}
 
-            <h3 className="mt-8 text-xl text-[#BC610A] font-serif">
+            <h3 className="text-xl text-[#BC610A] font-serif">
               {v.title}
             </h3>
 
