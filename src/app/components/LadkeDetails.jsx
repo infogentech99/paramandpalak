@@ -24,10 +24,10 @@ export default function LadkeDetails() {
             Param
           </h2>
 <p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl text-[16px]">
-            (Gs/o Late Jamunadevi R. Lohiya & Late Rameshwardasji Lohiya)
+            (Gs/o Late Jamunadevi & Late Shri Rameshwardasji Lohiya)
           </p>
           <p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-            (S/o Smt. Jyoti & Shri. Deepak R. Lohiya)
+            (S/o Smt. Jyoti & Deepak Lohiya)
           </p>
 
           <h2 className="text-[#BC610A] great-vibes-regular text-center text-[38px] sm:text-7xl lg:text-[60px] leading-tighter font-bold mt-2">
@@ -38,10 +38,10 @@ export default function LadkeDetails() {
             Palak
           </h2>
 <p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl text-[16px]">
-            (Gd/o Smt. Kamla Devi & Shri. OmPrakashji Sanghi)
+            (Gd/o Smt. Kamla Devi & Shri. Omprakashji Sanghi)
           </p>
           <p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-            (D/o Smt. Megha Sanghi & Shri. Manish Sanghi)
+            (D/o Smt. Megha & Shri. Manish Sanghi)
           </p>
 
           <ScratchText onReveal={() => setRevealed(true)} />

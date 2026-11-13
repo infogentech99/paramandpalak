@@ -8,7 +8,7 @@ const days = [
 const requestNames = ["With Warm Regards"];
 
 const requestNames2 = [
-  "Prabhudayal, Kanhiyalal",
+  "Prabhudayal, Kanhaiyalal",
   "Suresh Kumar, Jagadish",
   "Purushottam, Dipak",
   "&",

@@ -143,7 +143,7 @@ export default function Events() {
       </div>
 
       <h2 className="font-cormorant-garamond text-[20px] md:text-xl lg:text-[30px] border px-6 py-2 rounded-xl text-white bg-[#BC610A]">
-        Thursday, 1st December 2026
+        Tuesday, 1st December 2026
       </h2>
 
       <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-6.5 md:px-17 py-5 md:mt-20 mt-8">
@@ -230,8 +230,8 @@ export default function Events() {
           <h2 className="text-[#702B36] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[50px] font-semibold mt-2">
             Groom's Side
           </h2>
-          <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2">
-            Bhai Suresh Kumar Rameshwardasji Lohiya
+          <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2 font-semibold">
+            Bhai Sureshkumar Rameshwardasji Lohiya
           </p>
 
           <p className="text-[#702B36]  font-cormorant-garamond text-sm md:text-base mt-2">
@@ -261,7 +261,7 @@ export default function Events() {
           </p>
 
           <p className="text-[#702B36]  font-cormorant-garamond text-[14px] md:text-base">
-            38/39, Aashirwad, Gadge Layout, Pratap Nagar, Nagpur, Maharashtra.
+            38/39, Arsh, Gawande Layout, Pratap Nagar, Nagpur, Maharashtra.
           </p>
         </div>
       </div>
@@ -278,8 +278,8 @@ export default function Events() {
           <h2 className="text-[#702B36] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[50px] font-semibold">
             Bride's Side
           </h2>
-          <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2">
-            Manishkumarji Somprakashji Sanghi, Ganeshpeth, Nagpur
+          <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2 font-bold">
+            Manishkumarji omprakashji Sanghi, Ganeshpeth, Nagpur
           </p>
 
           <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2">
@@ -287,7 +287,7 @@ export default function Events() {
           </p>
 
           <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2">
-            Dosai Saalud Indian Kitchen, Ganeshpeth, Nagpur
+            Dosai South Indian Kitchen, Ganeshpeth, Nagpur
           </p>
         </div>
       </div>
