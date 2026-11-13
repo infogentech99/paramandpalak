@@ -2,7 +2,7 @@
 
 const venues = [
   {
-    title: "Goenka Farm",
+    title: <>At <br/> Goenka Farm, Bhandara Road, Nagpur</>,
     // place: "Hotel Marudhar Palace",
     // image: "/assets/marudhar.webp",
     link: "https://maps.app.goo.gl/k4HHPvMQXwFzEyUV9",
@@ -17,9 +17,16 @@ export default function Venues() {
       {/* Heading */}
       <h2
         className="text-[#BC610A] font-cormorant-garamond text-center
-            md:text-5xl text-[30px] lg:text-[80px] leading-tight mt-2 font-semibold"
+            md:text-4xl text-[26px] lg:text-[50px] leading-tight mt-2 font-semibold"
       >
-        The Venue
+        With Our Hearts With Your Presence
+      </h2>
+
+  <h2
+        className="text-[#BC610A] font-cormorant-garamond text-center
+            md:text-3xl text-[19px] lg:text-[40px] leading-tight mt-2 font-semibold"
+      >
+       29th & 30th - November 2026 <br/> 1st December 2026
       </h2>
 
       {/* Pin icon */}

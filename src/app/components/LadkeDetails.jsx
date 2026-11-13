@@ -11,31 +11,35 @@ export default function LadkeDetails() {
 
   return (
     <>
-      <div className="mx-auto w-full max-w-4xl text-center md:p-2 mt-8">
-        <p className="text-[17px] md:text-2xl text-[#BC610A] font-cormorant-garamond">
+      <div className="mx-auto w-full max-w-4xl text-center md:p-2 mt-4">
+        {/* <p className="text-[17px] md:text-2xl text-[#BC610A] font-cormorant-garamond">
           With the blessings of Late Jamunadevi R. Lohiya & Late Rameshwardasji Lohiya
-        </p>{" "}
+        </p>{" "} */}
         <br />
         <p className="text-[17px] md:text-2xl text-[#BC610A] font-cormorant-garamond">
-          We cordially invite you to the wedding ceremony of their Grandson
+          We cordially invite you to the wedding ceremony of
         </p>
         <div className="mt-8 text-center">
           <h2 className="text-[#BC610A] great-vibes-regular text-center mt-14 md:text-4xl text-[38px] lg:text-[60px] leading-tight font-bold">
             Param
           </h2>
-
+<p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl text-[16px]">
+            (Gs/o Late Jamunadevi R. Lohiya & Late Rameshwardasji Lohiya)
+          </p>
           <p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl mt-2 text-[16px]">
             (S/o Smt. Jyoti & Shri. Deepak R. Lohiya)
           </p>
 
-          <h2 className="text-[#BC610A] great-vibes-regular text-center text-[38px] sm:text-7xl lg:text-[60px] leading-tight font-bold">
+          <h2 className="text-[#BC610A] great-vibes-regular text-center text-[38px] sm:text-7xl lg:text-[60px] leading-tighter font-bold mt-2">
             <span className="text-[#BC610A] font-cormorant-garamond text-center md:text-3xl text-[22px] lg:text-[36px] leading-tight font-medium">
               With
             </span>
             <br />
             Palak
           </h2>
-
+<p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl text-[16px]">
+            (Gd/o Smt. Kamla Devi & Shri. OmPrakashji Sanghi)
+          </p>
           <p className="text-[#BC610A] font-cormorant-garamond lg:text-[30px] md:text-2xl mt-2 text-[16px]">
             (D/o Smt. Megha Sanghi & Shri. Manish Sanghi)
           </p>

@@ -50,6 +50,21 @@ export default function Events() {
         </div>
       </div>
 
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-5 md:px-17 py-5 md:mt-20 mt-8">
+        <div className="absolute inset-0 bg-[url('/assets/samela.webp')] bg-cover bg-center bg-no-repeat"></div>
+
+        {/* Content */}
+        <div className="relative z-10 flex flex-col md:mt-30 mt-12">
+          <h2 className="text-[#BC610A] font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
+            Musical Night &<br /> Reception
+          </h2>
+
+          <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-3">
+            7:00 pm onwards
+          </p>
+        </div>
+      </div>
+
       <div className="flex items-center w-full mt-16 mb-13">
         <div className="flex-1">
           <div className="border-t-2 border-[#BC610A]" />
@@ -131,10 +146,10 @@ export default function Events() {
         Thursday, 1st December 2026
       </h2>
 
-      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-8 md:px-17 py-5 md:mt-20 mt-8">
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-6.5 md:px-17 py-5 md:mt-20 mt-8">
         <div className="absolute inset-0 bg-[url('/assets/samela.webp')] bg-cover bg-center bg-no-repeat"></div>
 
-        <div className="relative z-10 flex flex-col md:mt-30 mt-3">
+        <div className="relative z-10 flex flex-col md:mt-30 mt-6">
           <h2 className="text-[#BC610A] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
             Samela & Nikasi
           </h2>
@@ -144,7 +159,7 @@ export default function Events() {
           </p>
 
           <h2 className="text-[#BC610A] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-7 font-semibold mt-3">
-            Varmala & <br /> Reception
+            Varmala
           </h2>
 
           <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-1">
@@ -156,14 +171,14 @@ export default function Events() {
       <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-18 md:px-17 py-5 md:mt-20 mt-8">
         <div className="absolute inset-0 bg-[url('/assets/reception.webp')] bg-cover bg-center bg-no-repeat"></div>
 
-        <div className="relative z-10 flex flex-col md:mt-30 mt-3">
-          <h2 className="text-[#702D42] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
+        <div className="relative z-10 flex flex-col md:mt-30 mt-10">
+          {/* <h2 className="text-[#702D42] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
             Reception
           </h2>
 
           <p className="text-[#702D42] font-cormorant-garamond text-base md:text-lg mt-1">
             1:00 pm onwards
-          </p>
+          </p> */}
 
           <h2 className="text-[#702D42] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[40px] leading-7 font-semibold mt-3">
             Phere
@@ -203,33 +218,79 @@ export default function Events() {
         </div>
       </div> */}
 
-      {/* <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[400px] md:min-h-[600px] px-11 py-0 md:px-19 lg:px-13 md:mt-20 mt-8">
-        <div className="absolute inset-0 bg-[url('/assets/wedding_event_n.webp')] bg-cover bg-center bg-no-repeat"></div>
-
-       
-        <div className="relative z-10 flex flex-col md:mt-45 mt-25">
-          <h2 className="text-[#702B36] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[50px] font-semibold">
-            Vows in Bloom
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl px-11 py-0 md:px-19 lg:px-13 md:mt-20 mt-8">
+        <div className="relative z-10 flex flex-col md:mt-45 mt-10">
+          <div className="mt-8 flex flex-col items-center text-center md:mt-10">
+            <img
+              src="/assets/groom.webp"
+              alt="Wedding Logo"
+              className="w-[80px] sm:w-[150px] md:w-[200px]"
+            />
+          </div>
+          <h2 className="text-[#702B36] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[50px] font-semibold mt-2">
+            Groom's Side
           </h2>
           <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2">
-            4:30 pm onwards
+            Bhai Suresh Kumar Rameshwardasji Lohiya
           </p>
 
           <p className="text-[#702B36]  font-cormorant-garamond text-sm md:text-base mt-2">
             <span className="text-[15px] md:text-base lg:text-xl  font-cormorant-garamond font-semibold">
-              Rock Garden
+              Deepak R. Lohia Pvt. Ltd.
             </span>
           </p>
 
-          <a
-            href="https://maps.app.goo.gl/xzAuofL2wKb5jVaY6"
-            className="text-[#702B36] underline md:text-sm text-[13px] font-cormorant-garamond"
-            target="_blank"
-          >
-            View Location
-          </a>
+          <p className="text-[#702B36]  font-cormorant-garamond text-[14px] md:text-base">
+            (Engineers & Contractors)
+          </p>
+
+          <p className="text-[#702B36]  font-cormorant-garamond text-sm md:text-base mt-2">
+            <span className="text-[15px] md:text-base lg:text-xl  font-cormorant-garamond font-semibold">
+              Gondia Residence:
+            </span>
+          </p>
+
+          <p className="text-[#702B36]  font-cormorant-garamond text-[14px] md:text-base">
+            Amrut Kunj, Sarafa Line, Gondia – 441601
+          </p>
+
+          <p className="text-[#702B36]  font-cormorant-garamond text-sm md:text-base mt-2">
+            <span className="text-[15px] md:text-base lg:text-xl  font-cormorant-garamond font-semibold">
+              Nagpur Residence:
+            </span>
+          </p>
+
+          <p className="text-[#702B36]  font-cormorant-garamond text-[14px] md:text-base">
+            38/39, Aashirwad, Gadge Layout, Pratap Nagar, Nagpur, Maharashtra.
+          </p>
         </div>
-      </div> */}
+      </div>
+
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl px-11 py-0 md:px-19 lg:px-13 md:mt-20 mt-12">
+        <div className="relative z-10 flex flex-col">
+          <div className="mt-8 flex flex-col items-center text-center md:mt-10">
+            <img
+              src="/assets/bride.webp"
+              alt="Wedding Logo"
+              className="w-[80px] sm:w-[150px] md:w-[200px]"
+            />
+          </div>
+          <h2 className="text-[#702B36] font-cormorant-garamond text-[28px] md:text-3xl lg:text-[50px] font-semibold">
+            Bride's Side
+          </h2>
+          <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2">
+            Manishkumarji Somprakashji Sanghi, Ganeshpeth, Nagpur
+          </p>
+
+          <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2">
+            Megha Plastics, Gandhi Gate, Mahal, Nagpur
+          </p>
+
+          <p className="text-[#702B36]  font-cormorant-garamond text-[16px] md:text-base mt-2">
+            Dosai Saalud Indian Kitchen, Ganeshpeth, Nagpur
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

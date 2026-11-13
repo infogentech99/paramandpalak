@@ -5,18 +5,15 @@ const days = [
   { date: "Dec", icon: "🌤️", high: 30, low: 14, note: "Clear skies" },
 ];
 
-const requestNames = [
-  "With Warm Regards",
-  
-];
-
-
+const requestNames = ["With Warm Regards"];
 
 const requestNames2 = [
-  "Lohiya Family",
+  "Prabhudayal, Kanhiyalal",
+  "Suresh Kumar, Jagadish",
+  "Purushottam, Dipak",
+  "&",
+  " Lohiya Family",
 ];
-
-
 
 export default function Weather() {
   return (
@@ -25,7 +22,6 @@ export default function Weather() {
       className="w-full scroll-mt-6 px-0 md:px-10 flex flex-col items-center gap-16"
     >
       {/* Weather card */}
-    
 
       {/* Special request card */}
       <div
@@ -40,27 +36,23 @@ export default function Weather() {
           {requestNames.map((name) => (
             <p
               key={name}
-              className="text-[14px] md:text-2xl text-[#f6e6dc] font-serif uppercase"
+              className="text-[18px] md:text-2xl text-[#f6e6dc] font-serif uppercase"
             >
               {name}
             </p>
           ))}
         </div>
 
-
-
-             <div className="mt-1 space-y-2">
+        <div className="mt-1 space-y-2">
           {requestNames2.map((name) => (
             <p
               key={name}
-              className="text-2xl md:text-2xl text-[#f6e6dc] font-serif uppercase"
+              className="text-[16px]  md:text-2xl text-[#f6e6dc] font-serif"
             >
               {name}
             </p>
           ))}
         </div>
-
-       
       </div>
     </section>
   );
