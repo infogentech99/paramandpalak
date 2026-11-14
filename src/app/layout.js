@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata= {
-  metadataBase: new URL("https://paramandpalak.vercel.app/"),
+  metadataBase: new URL("https://paramandpalak1.vercel.app/"),
 
   openGraph: {
     title: "Param & Palak Lohiya",
     description: "Join as they begin their forever. 29, 30 November & 1 December, 2026",
-    url: "https://paramandpalak.vercel.app/",
+    url: "https://paramandpalak1.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -40,7 +40,7 @@ export const metadata= {
   },
 
  other: {
-    "og:image:secure_url": "https://paramandpalak.vercel.app/og.jpg",
+    "og:image:secure_url": "https://paramandpalak1.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 };
