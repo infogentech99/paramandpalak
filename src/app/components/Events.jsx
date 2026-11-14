@@ -50,12 +50,12 @@ export default function Events() {
         </div>
       </div>
 
-      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-5 md:px-17 py-5 md:mt-20 mt-8">
+      <div className="relative flex flex-col text-center overflow-hidden rounded-2xl min-h-[350px] md:min-h-[600px] px-7 md:px-17 py-5 md:mt-20 mt-8">
         <div className="absolute inset-0 bg-[url('/assets/samela.webp')] bg-cover bg-center bg-no-repeat"></div>
 
         {/* Content */}
-        <div className="relative z-10 flex flex-col md:mt-30 mt-12">
-          <h2 className="text-[#BC610A] font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
+        <div className="relative z-10 flex flex-col md:mt-30 mt-8">
+          <h2 className="text-[#BC610A] font-cormorant-garamond text-[26px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
            Bhajan Jamming <br />& Reception
           </h2>
 
