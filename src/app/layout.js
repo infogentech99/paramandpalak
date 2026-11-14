@@ -17,7 +17,7 @@ export const metadata= {
   metadataBase: new URL("https://paramandpalak.vercel.app/"),
 
   openGraph: {
-    title: "Param & Palak Garg",
+    title: "Param & Palak Lohiya",
     description: "Join as they begin their forever. 29, 30 November & 1 December, 2026",
     url: "https://paramandpalak.vercel.app/",
     siteName: "InviteArc",

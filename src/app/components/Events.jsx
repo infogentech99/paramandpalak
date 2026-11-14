@@ -56,7 +56,7 @@ export default function Events() {
         {/* Content */}
         <div className="relative z-10 flex flex-col md:mt-30 mt-12">
           <h2 className="text-[#BC610A] font-cormorant-garamond text-[30px] md:text-3xl lg:text-[40px] leading-tight font-semibold">
-            Musical Night &<br /> Reception
+           Bhajan Jamming <br />& Reception
           </h2>
 
           <p className="text-[#BC610A] font-cormorant-garamond text-base md:text-lg mt-3">
