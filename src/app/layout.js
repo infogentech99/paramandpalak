@@ -12,7 +12,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata= {
   metadataBase: new URL("https://paramandpalak.vercel.app/"),
 
